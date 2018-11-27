@@ -1,0 +1,6 @@
+
+to inspect a x509 Cert 's info when in the PEM encoded format (e.g.  BEGIN_CERTIFICATE ....)
+
+openssl x509 -in file_path   -text                  # -text makes the difference to inspect fields
+
+
